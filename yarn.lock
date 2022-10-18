@@ -81,13 +81,6 @@
   dependencies:
     "acme-v2" "^1.8.6"
 
-"agent-base@^6.0.2":
-  "integrity" "sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ=="
-  "resolved" "https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz"
-  "version" "6.0.2"
-  dependencies:
-    "debug" "4"
-
 "ajv@^4.9.1":
   "integrity" "sha1-gv+wKynmYq5TvcIK8VlHcGc5xTY="
   "resolved" "https://registry.npmjs.org/ajv/-/ajv-4.11.8.tgz"
@@ -508,26 +501,12 @@
   dependencies:
     "ms" "^2.1.1"
 
-"debug@^4.3.3":
-  "integrity" "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
-  "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
-  "version" "4.3.4"
-  dependencies:
-    "ms" "2.1.2"
-
 "debug@2.2.0":
   "integrity" "sha1-+HBX6ZWxofauaklgZkE3vFbwOdo="
   "resolved" "https://registry.npmjs.org/debug/-/debug-2.2.0.tgz"
   "version" "2.2.0"
   dependencies:
     "ms" "0.7.1"
-
-"debug@4":
-  "integrity" "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
-  "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
-  "version" "4.3.4"
-  dependencies:
-    "ms" "2.1.2"
 
 "deep-eql@0.1.3":
   "integrity" "sha1-71WKyrjeJSBs1xOQbXTlaTDrafI="
@@ -1405,11 +1384,6 @@
   "resolved" "https://registry.npmjs.org/interpret/-/interpret-1.0.3.tgz"
   "version" "1.0.3"
 
-"ip@^2.0.0":
-  "integrity" "sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ=="
-  "resolved" "https://registry.npmjs.org/ip/-/ip-2.0.0.tgz"
-  "version" "2.0.0"
-
 "is-absolute@^0.2.3":
   "integrity" "sha1-IN5p89uULvLYe5wto28XIjWxtes="
   "resolved" "https://registry.npmjs.org/is-absolute/-/is-absolute-0.2.6.tgz"
@@ -1947,11 +1921,6 @@
   "integrity" "sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g="
   "resolved" "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz"
   "version" "2.0.0"
-
-"ms@2.1.2":
-  "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
-  "resolved" "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
-  "version" "2.1.2"
 
 "multipipe@^0.1.2":
   "integrity" "sha1-Ko8t33Du1WTf8tV/HhoTfZ8FB4s="
@@ -2540,34 +2509,12 @@
   "resolved" "https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz"
   "version" "1.0.1"
 
-"smart-buffer@^4.2.0":
-  "integrity" "sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg=="
-  "resolved" "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz"
-  "version" "4.2.0"
-
 "sntp@1.x.x":
   "integrity" "sha1-ZUEYTMkK7qbG57NeJlkIJEPGYZg="
   "resolved" "https://registry.npmjs.org/sntp/-/sntp-1.0.9.tgz"
   "version" "1.0.9"
   dependencies:
     "hoek" "2.x.x"
-
-"socks-proxy-agent@^7.0.0":
-  "integrity" "sha512-Fgl0YPZ902wEsAyiQ+idGd1A7rSFx/ayC1CQVMw5P+EQx2V0SgpGtf6OKFhVjPflPUl9YMmEOnmfjCdMUsygww=="
-  "resolved" "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-7.0.0.tgz"
-  "version" "7.0.0"
-  dependencies:
-    "agent-base" "^6.0.2"
-    "debug" "^4.3.3"
-    "socks" "^2.6.2"
-
-"socks@^2.6.2":
-  "integrity" "sha512-7maUZy1N7uo6+WVEX6psASxtNlKaNVMlGQKkG/63nEDdLOWNbiUMoLK7X4uYoLhQstau72mLgfEWcXcwsaHbYQ=="
-  "resolved" "https://registry.npmjs.org/socks/-/socks-2.7.1.tgz"
-  "version" "2.7.1"
-  dependencies:
-    "ip" "^2.0.0"
-    "smart-buffer" "^4.2.0"
 
 "somever@2.x.x":
   "integrity" "sha512-9JaIPP+HxwYGqCDqqK3tRaTqdtQHoK6Qy3IrXhIt2q5x8fs8RcfU7BMWlFTCOgFazK8p88zIv1tHQXvAwtXMyw=="
